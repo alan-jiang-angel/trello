@@ -1,0 +1,50 @@
+# == Schema Information
+#
+# Table name: columns
+#
+#  id         :bigint(8)        not null, primary key
+#  board_id   :bigint(8)
+#  name       :string
+#  title      :string
+#  position   :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+personal_todo:
+  board: personal
+  name: personal_todo
+  title: Personal to-dos
+  position: 1
+
+personal_doing:
+  board: personal
+  name: personal_doing
+  title: Personal to-dos in progress
+  position: 2
+
+personal_done:
+  board: personal
+  name: personal_done
+  title: Personal to-dos completed
+  position: 3
+
+project_todo:
+  board: project
+  name: project_todo
+  title: project to-dos
+  position: 1
+
+project_doing:
+  board: project
+  name: project_doing
+  title: project to-dos in progress
+  position: 2
+
+project_done:
+  board: project
+  name: project_done
+  title: project to-dos completed
+  position: 3

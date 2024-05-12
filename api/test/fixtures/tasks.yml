@@ -1,0 +1,50 @@
+# == Schema Information
+#
+# Table name: tasks
+#
+#  id         :bigint(8)        not null, primary key
+#  column_id  :bigint(8)
+#  name       :string
+#  title      :string
+#  position   :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+personal_todo_task1:
+  column: personal_todo
+  name: grocery
+  title: Buy food
+  position: 1
+
+personal_todo_task2:
+  column: personal_todo
+  name: soccer
+  title: Play soccer
+  position: 2
+
+personal_doing_task1:
+  column: personal_doing
+  name: reading
+  title: Read book
+  position: 1
+
+personal_doing_task2:
+  column: personal_doing
+  name: movie
+  title: Watch movie
+  position: 2
+
+personal_done_task1:
+  column: personal_done
+  name: cleaning
+  title: Clean room
+  position: 1
+
+personal_done_task2:
+  column: personal_done
+  name: repair
+  title: Repair computer
+  position: 2

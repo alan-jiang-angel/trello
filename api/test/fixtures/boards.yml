@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: boards
+#
+#  id         :bigint(8)        not null, primary key
+#  name       :string
+#  title      :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+personal:
+  name: personal
+  title: Personal
+
+project:
+  name: project
+  title: Project
